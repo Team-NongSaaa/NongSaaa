@@ -22,8 +22,9 @@ const GlobalStyle = createGlobalStyle`
   * {
     padding: 0px;
     margin: 0px;
-    font-family: "애플 SD 산돌고딕 Neo", "Apple SD Gothic Neo", "Malgun Gothic", "arial sans-serif";
+    /* font-family: "애플 SD 산돌고딕 Neo", "Apple SD Gothic Neo", "Malgun Gothic", "arial sans-serif"; */
     box-sizing: border-box;
+    font-family: 'Noto Sans KR', sans-serif;
   }
   a {
     text-decoration: none;
