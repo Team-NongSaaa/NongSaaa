@@ -7,7 +7,7 @@ import NavBar from './components/navbar';
 
 function App() {
   return (
-    <div>
+    <div className="container">
       <GlobalStyle />
       <NavBar />
       <Switch>
@@ -27,6 +27,10 @@ const GlobalStyle = createGlobalStyle`
   }
   a {
     text-decoration: none;
+  }
+  .container{
+    display: flex;
+    flex-direction: row;
   }
 `;
 
