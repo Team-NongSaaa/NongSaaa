@@ -8,6 +8,13 @@ function NavBar() {
     <S.NavBarWrapper>
       <Link to="/">
         <S.MenuItem>
+          <Icon name="flask" size="large" />
+          <S.MenuTitle>NongSaaa</S.MenuTitle>
+        </S.MenuItem>
+      </Link>
+      <S.Line />
+      <Link to="/">
+        <S.MenuItem>
           <Icon name="pie chart" size="large" />
           <S.MenuTitle>DASHBOARD</S.MenuTitle>
         </S.MenuItem>
@@ -20,7 +27,7 @@ function NavBar() {
       </Link>
       <Link to="/community">
         <S.MenuItem exact href="/about">
-          <Icon name="calendar" size="large" />
+          <Icon name="table" size="large" />
           <S.MenuTitle>COMMUNITY</S.MenuTitle>
         </S.MenuItem>
       </Link>
@@ -32,7 +39,7 @@ function NavBar() {
       </Link>
       <Link to="/about">
         <S.MenuItem exact href="/about">
-          <Icon name="file" size="large" />
+          <Icon name="at" size="large" />
           <S.MenuTitle>ABOUT US</S.MenuTitle>
         </S.MenuItem>
       </Link>

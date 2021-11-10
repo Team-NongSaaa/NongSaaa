@@ -41,3 +41,9 @@ export const MenuTitle = styled.span`
   height: auto;
   opacity: 1;
 `;
+
+export const Line = styled.div`
+  width: 90%;
+  margin: 0 auto;
+  border: 1px solid gray;
+`;
