@@ -1,8 +1,9 @@
 import React from 'react';
 import { createGlobalStyle } from 'styled-components';
 import { Route, Switch } from 'react-router-dom';
-import HomePage from './pages/HomePage';
-import AboutPage from './pages/AboutPage';
+import HomePage from './components/home/index';
+import AboutPage from './components/about/index';
+import DashBoard from './components/dashboard/index';
 import NavBar from './components/navbar';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Switch>
         <Route path="/" exact component={HomePage} />
         <Route path="/about" exact component={AboutPage} />
+        <Route path="/dashboard" exact component={DashBoard} />
       </Switch>
     </div>
   );

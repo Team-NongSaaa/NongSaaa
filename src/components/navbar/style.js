@@ -6,7 +6,7 @@ export const NavBarWrapper = styled.div`
   height: 100vh;
   background-color: #252631;
   &:first-child {
-    padding-top: 5px;
+    /* padding-top: 5px; */
   }
 `;
 

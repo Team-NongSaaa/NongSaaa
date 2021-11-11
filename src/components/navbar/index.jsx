@@ -13,7 +13,7 @@ function NavBar() {
         </S.MenuItem>
       </Link>
       <S.Line />
-      <Link to="/">
+      <Link to="/dashboard">
         <S.MenuItem>
           <Icon name="pie chart" size="large" />
           <S.MenuTitle>DASHBOARD</S.MenuTitle>
