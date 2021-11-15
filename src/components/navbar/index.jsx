@@ -19,7 +19,7 @@ function NavBar() {
           <S.MenuTitle>DASHBOARD</S.MenuTitle>
         </S.MenuItem>
       </Link>
-      <Link to="/search">
+      <Link to="/analysis">
         <S.MenuItem exact href="/about">
           <Icon name="search" size="large" />
           <S.MenuTitle>ANALYSIS</S.MenuTitle>
