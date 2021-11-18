@@ -25,28 +25,25 @@ function Tab1() {
       ) : aiStatus ? (
         <S.ResultWrapper>
           <S.CropImageWrapper>
-            <S.CropImage src={'./img/before_bug.jpg'} />
+            <S.CropImage src={'./img/before_weed.png'} />
             <Icon name="arrow right" size="big" />
-            <S.CropImage src={'./img/after_bug.jpg'} />
+            <S.CropImage src={'./img/after_weed.png'} />
           </S.CropImageWrapper>
           <S.ResultContentWrapper>
             <S.ResultContent>총 </S.ResultContent>
             <S.ResultCount>4</S.ResultCount>
-            <S.ResultContent>개의 해충이 감지되었습니다</S.ResultContent>
+            <S.ResultContent>개의 잡초 영역이 발견되었습니다</S.ResultContent>
           </S.ResultContentWrapper>
           <S.ResultContentWrapper>
-            <S.ResultContent>발견된 해충으로는, </S.ResultContent>
+            <S.ResultContent>빨간색 영역은 잡초의 영역이며, </S.ResultContent>
           </S.ResultContentWrapper>
           <S.ResultContentWrapper>
-            <S.ResultBug>
-              검거세미밤나방, 담배가루이, 무잎벌, 배추흰나비
-            </S.ResultBug>
-            <S.ResultContent> 입니다</S.ResultContent>
+            <S.ResultContent>초록색 영역은 작물의 영역입니다 </S.ResultContent>
           </S.ResultContentWrapper>
         </S.ResultWrapper>
       ) : (
         <>
-          <S.Title>작물 해충 진단</S.Title>
+          <S.Title>작물 - 잡초 영역 분류</S.Title>
           <S.ImageWrapper>
             {cropImage ? (
               <S.CropImage src={cropImage} />

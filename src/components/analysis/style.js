@@ -36,8 +36,18 @@ export const ImageInput = styled.input`
 `;
 
 export const CropImage = styled.img`
-  height: auto;
   max-width: 300px;
+`;
+
+export const CropImageWrapper = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  & > i {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
 `;
 
 export const UploadBtn = styled.div`
@@ -68,6 +78,8 @@ export const ResultWrapper = styled.div``;
 
 export const ResultContentWrapper = styled.div`
   margin-top: 10px;
+  font-size: 18px;
+  line-height: 30px;
 `;
 
 export const ResultContent = styled.span``;
