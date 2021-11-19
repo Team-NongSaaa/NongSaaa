@@ -3,7 +3,8 @@ import { createGlobalStyle } from 'styled-components';
 import { Route, Switch } from 'react-router-dom';
 import HomePage from './components/home/index';
 import AboutPage from './components/about/index';
-import DashBoard from './components/dashboard/index';
+import DashBoardPage from './components/dashboard/index';
+import ResultPage from './components/result/index';
 import Analysis from './components/analysis';
 import NavBar from './components/navbar';
 
@@ -15,7 +16,8 @@ function App() {
       <Switch>
         <Route path="/" exact component={HomePage} />
         <Route path="/about" exact component={AboutPage} />
-        <Route path="/dashboard" exact component={DashBoard} />
+        <Route path="/dashboard" exact component={DashBoardPage} />
+        <Route path="/result" exact component={ResultPage} />
         <Route path="/analysis" exact component={Analysis} />
       </Switch>
     </div>

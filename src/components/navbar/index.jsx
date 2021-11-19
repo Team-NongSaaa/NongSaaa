@@ -19,6 +19,12 @@ function NavBar() {
           <S.MenuTitle>DASHBOARD</S.MenuTitle>
         </S.MenuItem>
       </Link>
+      <Link to="/result">
+        <S.MenuItem exact href="/about">
+          <Icon name="hockey puck" size="large" />
+          <S.MenuTitle>RESULTS</S.MenuTitle>
+        </S.MenuItem>
+      </Link>
       <Link to="/analysis">
         <S.MenuItem exact href="/about">
           <Icon name="search" size="large" />
@@ -29,12 +35,6 @@ function NavBar() {
         <S.MenuItem exact href="/about">
           <Icon name="table" size="large" />
           <S.MenuTitle>COMMUNITY</S.MenuTitle>
-        </S.MenuItem>
-      </Link>
-      <Link to="/result">
-        <S.MenuItem exact href="/about">
-          <Icon name="hockey puck" size="large" />
-          <S.MenuTitle>RESULTS</S.MenuTitle>
         </S.MenuItem>
       </Link>
       <Link to="/about">
