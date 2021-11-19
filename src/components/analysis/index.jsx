@@ -2,7 +2,7 @@ import React from 'react';
 import { Icon, Tab } from 'semantic-ui-react';
 import Header from '../header';
 import Tab1 from './tab1';
-import Tab3 from './tab3';
+import Tab2 from './tab2';
 import * as S from './style';
 
 function Analysis() {
@@ -19,7 +19,7 @@ function Analysis() {
       menuItem: '작물 & 잡초 영역 분류',
       render: () => (
         <Tab.Pane>
-          <Tab3 />
+          <Tab2 />
         </Tab.Pane>
       ),
     },

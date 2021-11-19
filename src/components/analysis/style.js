@@ -84,6 +84,16 @@ export const ResultContentWrapper = styled.div`
 
 export const ResultContent = styled.span``;
 
+export const RedContent = styled.span`
+  color: red;
+  font-weight: bold;
+`;
+
+export const GreenContent = styled.span`
+  color: green;
+  font-weight: bold;
+`;
+
 export const ResultCount = styled.span`
   font-weight: bold;
   color: red;

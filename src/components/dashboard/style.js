@@ -63,3 +63,8 @@ export const BoardTitle = styled.div`
   color: #a9a9a9;
   text-align: right;
 `;
+
+export const GraphWrapper = styled.div`
+  display: flex;
+  justify-content: space-around;
+`;

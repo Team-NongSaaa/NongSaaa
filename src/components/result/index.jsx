@@ -6,7 +6,7 @@ import * as S from './style';
 
 function Result() {
   const settings = {
-    arrows: false,
+    arrows: true,
     dots: true,
     infinite: true,
     slidesToShow: 1,
@@ -17,7 +17,7 @@ function Result() {
     <S.Container>
       <Header />
       <S.ContentWrapper>
-        <S.Title>2021년 11월 20일</S.Title>
+        <S.Title>2021년 11월 20일 드론 촬영 기록</S.Title>
         <S.Weather>6 ~ 15℃, 맑음</S.Weather>
         <Slider {...settings}>
           {Array.from({ length: 16 }, (v, i) => i).map((image, index) => (

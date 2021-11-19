@@ -2,7 +2,17 @@ import React from 'react';
 import { Icon } from 'semantic-ui-react';
 import Header from '../header';
 import * as S from './style';
-import { BarChart, Bar, XAxis, YAxis, Tooltip, CartesianGrid } from 'recharts';
+import {
+  BarChart,
+  Bar,
+  XAxis,
+  YAxis,
+  CartesianGrid,
+  Tooltip,
+  LineChart,
+  Line,
+  Legend,
+} from 'recharts';
 const data = [
   { name: 'Page A', uv: 200, pv: 2400, amt: 2400 },
   { name: 'Page B', uv: 300, pv: 2400, amt: 2400 },
@@ -69,13 +79,39 @@ function DashBoard() {
             <S.BoardTitle>해야할일</S.BoardTitle>
           </S.BoardBox>
         </S.BoardWrapper>
-        <BarChart width={600} height={300} data={data}>
-          <XAxis dataKey="name" stroke="#8884d8" />
-          <YAxis />
-          <Tooltip />
-          <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
-          <Bar dataKey="uv" fill="#8884d8" barSize={30} />
-        </BarChart>
+        <S.GraphWrapper>
+          <BarChart width={600} height={300} data={data}>
+            <XAxis dataKey="name" stroke="#8884d8" />
+            <YAxis />
+            <Tooltip />
+            <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
+            <Bar dataKey="uv" fill="#8884d8" barSize={30} />
+          </BarChart>
+          <LineChart
+            width={500}
+            height={300}
+            data={data}
+            margin={{
+              top: 5,
+              right: 30,
+              left: 20,
+              bottom: 5,
+            }}
+          >
+            <CartesianGrid strokeDasharray="3 3" />
+            <XAxis dataKey="name" />
+            <YAxis />
+            <Tooltip />
+            <Legend />
+            <Line
+              type="monotone"
+              dataKey="pv"
+              stroke="#8884d8"
+              activeDot={{ r: 8 }}
+            />
+            <Line type="monotone" dataKey="uv" stroke="#82ca9d" />
+          </LineChart>
+        </S.GraphWrapper>
       </S.ContentWrapper>
     </S.Container>
   );

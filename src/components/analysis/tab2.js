@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Icon, Tab, Loader } from 'semantic-ui-react';
 import * as S from './style';
 
-function Tab1() {
+function Tab2() {
   const [cropImage, setCropImage] = useState('');
   const [aiStatus, setAiStatus] = useState(false);
   const [loading, setLoading] = useState(false);
@@ -35,10 +35,12 @@ function Tab1() {
             <S.ResultContent>개의 잡초 영역이 발견되었습니다</S.ResultContent>
           </S.ResultContentWrapper>
           <S.ResultContentWrapper>
-            <S.ResultContent>빨간색 영역은 잡초의 영역이며, </S.ResultContent>
+            <S.RedContent>빨간색 </S.RedContent>
+            <S.ResultContent>영역은 잡초의 영역이며, </S.ResultContent>
           </S.ResultContentWrapper>
           <S.ResultContentWrapper>
-            <S.ResultContent>초록색 영역은 작물의 영역입니다 </S.ResultContent>
+            <S.GreenContent>초록색 </S.GreenContent>
+            <S.ResultContent>영역은 작물의 영역입니다 </S.ResultContent>
           </S.ResultContentWrapper>
         </S.ResultWrapper>
       ) : (
@@ -84,4 +86,4 @@ function Tab1() {
   );
 }
 
-export default Tab1;
+export default Tab2;
