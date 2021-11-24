@@ -1,10 +1,13 @@
 import styled from 'styled-components';
 
-export const Container = styled.div`
+export const Container = styled.div `
   width: 100%;
+     margin-left: 171
+px
+;
 `;
 
-export const ContentWrapper = styled.div`
+export const ContentWrapper = styled.div `
   padding: 20px;
   width: 89vw;
   margin-top: 10px;
@@ -14,7 +17,7 @@ export const ContentWrapper = styled.div`
   }
 `;
 
-export const Title = styled.div`
+export const Title = styled.div `
   font-size: 30px;
   font-weight: bold;
   display: flex;
@@ -22,7 +25,7 @@ export const Title = styled.div`
   margin-bottom: 30px;
 `;
 
-export const Weather = styled.div`
+export const Weather = styled.div `
   font-size: 20px;
   font-weight: bold;
   display: flex;
@@ -31,12 +34,12 @@ export const Weather = styled.div`
   align-items: center;
 `;
 
-export const ImageWrapper = styled.div`
+export const ImageWrapper = styled.div `
   width: 500px !important;
   height: 500px !important; ;
 `;
 
-export const FarmImage = styled.img`
+export const FarmImage = styled.img `
   width: 500px !important;
   height: 500px !important; ;
 `;
