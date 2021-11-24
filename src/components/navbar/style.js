@@ -1,16 +1,17 @@
 import styled from 'styled-components';
 
-export const NavBarWrapper = styled.div`
+export const NavBarWrapper = styled.div `
   display: flex;
   flex-direction: column;
   height: 100vh;
   background-color: #252631;
+  position: fixed;
   &:first-child {
     /* padding-top: 5px; */
   }
 `;
 
-export const MenuItem = styled.div`
+export const MenuItem = styled.div `
   border: 1px solid black;
   padding: 15px;
   cursor: pointer;
@@ -28,7 +29,7 @@ export const MenuItem = styled.div`
   }
 `;
 
-export const MenuTitle = styled.span`
+export const MenuTitle = styled.span `
   margin: 0;
   line-height: 30px;
   font-size: 15px;
@@ -42,7 +43,7 @@ export const MenuTitle = styled.span`
   opacity: 1;
 `;
 
-export const Line = styled.div`
+export const Line = styled.div `
   width: 90%;
   margin: 0 auto;
   border: 1px solid gray;
