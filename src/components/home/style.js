@@ -17,7 +17,7 @@ export const HomeWrapper = styled.div`
 `;
 
 export const HomeContent = styled.div`
-  height: 40%;
+  height: 35%;
   width: 100%;
   margin: auto 0;
   display: flex;
@@ -50,6 +50,7 @@ export const TitleTwo = styled.div`
   line-height: 35px;
   font-weight: 500;
   color: black;
+  margin-bottom: 30px;
 `;
 
 export const Introduction = styled.div`
@@ -163,7 +164,109 @@ export const TextWord2 = styled.div`
   justify-content: center;
 `;
 
-export const apply = styled.div`
+export const ApplyWrapper = styled.div`
   width: 100%;
-  height: 800px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+`;
+
+export const ApplyTitle = styled.div`
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #252631;
+  margin: 80px 0;
+`;
+export const ApplySmallTitle = styled.div`
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 50px;
+`;
+
+export const ApplyBigTitle = styled.div`
+  font-size: 54px;
+  font-weight: 900;
+  margin-bottom: 60px;
+`;
+
+export const ApplyInformation = styled.div`
+  font-size: 20px;
+  margin-bottom: 10px;
+`;
+
+export const ApplyForm = styled.div`
+  width: 440px;
+  margin-bottom: 80px;
+`;
+
+export const FormWrapper = styled.div`
+  width: 100%;
+`;
+
+export const FormText = styled.div`
+  width: 100%;
+  font-size: 16px;
+  font-weight: 600;
+`;
+
+export const FormInput = styled.input`
+  width: 100%;
+  height: 40px;
+  margin-bottom: 30px;
+`;
+
+export const ApplyCheckbox = styled.div`
+  width: 100%;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+`;
+export const CheckboxWrapper = styled.input`
+  height: 100%;
+  width: auto;
+  margin-right: 10px;
+`;
+export const CheckboxText2 = styled.div`
+  text-decoration-line: underline;
+`;
+export const CheckboxText = styled.div`
+  font-size: 16px;
+`;
+
+export const ApplyButton = styled.button`
+  height: 50px;
+  width: 100%;
+  margin-top: 10px;
+  background: #008dd4;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+`;
+
+export const BottomWrapper = styled.div`
+  width: 100%;
+  height: 200px;
+  background-color: #d9d9dd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+`;
+
+export const CompanyName = styled.div`
+  font-size: 30px;
+  font-weight: 900;
+  margin-bottom: 50px
+`;
+
+export const BottomMenu = styled.div`
+  font-size: 16px;
 `;

@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React from 'react';
 import Header from '../header';
 import * as S from './style';
@@ -52,7 +53,7 @@ function Home() {
         <S.BodyImage src={'./img/home_body3.jpeg'} />
       </S.BodyOne>
       <S.BodyTwo>
-        <S.BodyImage2 src={'./img/home_body2.png'} />
+        <S.BodyImage2 src={'./img/home_body4.png'} />
         <S.BodyText2>
           <S.TextTitle>농작업 보조 전용 플랫폼</S.TextTitle>
           <S.TextWord2>
@@ -62,7 +63,58 @@ function Home() {
           </S.TextWord2>
         </S.BodyText2>
       </S.BodyTwo>
-      <S.apply></S.apply>
+      <S.ApplyWrapper>
+        <S.ApplyTitle>
+          <S.ApplySmallTitle>
+            Cropper가 고민을 해결해드립니다.
+          </S.ApplySmallTitle>
+          <S.ApplyBigTitle>무료 데모를 신청하세요</S.ApplyBigTitle>
+          <S.ApplyInformation>
+            전담 컨설턴트가 고객의 고민과 문제를 파악해 규모/상황별 활용 방안을
+            안내해드려요.
+          </S.ApplyInformation>
+          <S.ApplyInformation>
+            지금 바로 맞춤 상담을 시작하세요.
+          </S.ApplyInformation>
+        </S.ApplyTitle>
+        <S.ApplyForm>
+          <S.FormWrapper>
+            <S.FormText>성</S.FormText>
+            <S.FormInput></S.FormInput>
+          </S.FormWrapper>
+          <S.FormWrapper>
+            <S.FormText>이름</S.FormText>
+            <S.FormInput></S.FormInput>
+          </S.FormWrapper>
+          <S.FormWrapper>
+            <S.FormText>이메일</S.FormText>
+            <S.FormInput></S.FormInput>
+          </S.FormWrapper>
+          <S.FormWrapper>
+            <S.FormText>농지 주소</S.FormText>
+            <S.FormInput></S.FormInput>
+          </S.FormWrapper>
+          <S.FormWrapper>
+            <S.FormText>연락처</S.FormText>
+            <S.FormInput></S.FormInput>
+          </S.FormWrapper>
+          <S.ApplyCheckbox>
+            <S.CheckboxWrapper type="checkbox"></S.CheckboxWrapper>
+            <S.CheckboxText2>개인정보 수집 및 이용</S.CheckboxText2>
+            <S.CheckboxText>에 동의합니다.</S.CheckboxText>
+          </S.ApplyCheckbox>
+          <S.ApplyCheckbox>
+            <S.CheckboxWrapper type="checkbox"></S.CheckboxWrapper>
+            <S.CheckboxText2>마케팅 활용 및 광고 수신</S.CheckboxText2>
+            <S.CheckboxText>에 동의합니다.</S.CheckboxText>
+          </S.ApplyCheckbox>
+          <S.ApplyButton>무료 데모 신청하기</S.ApplyButton>
+        </S.ApplyForm>
+      </S.ApplyWrapper>
+      <S.BottomWrapper>
+        <S.CompanyName>Cropper</S.CompanyName>
+        <S.BottomMenu>이용약관 | 개인정보 처리방침 |  고객센터  |  ©Cropper</S.BottomMenu>
+      </S.BottomWrapper>
     </S.Container>
   );
 }
