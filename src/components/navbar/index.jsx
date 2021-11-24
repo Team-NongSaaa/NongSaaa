@@ -31,18 +31,6 @@ function NavBar() {
           <S.MenuTitle>ANALYSIS</S.MenuTitle>
         </S.MenuItem>
       </Link>
-      <Link to="/community">
-        <S.MenuItem exact href="/about">
-          <Icon name="table" size="large" />
-          <S.MenuTitle>COMMUNITY</S.MenuTitle>
-        </S.MenuItem>
-      </Link>
-      <Link to="/about">
-        <S.MenuItem exact href="/about">
-          <Icon name="at" size="large" />
-          <S.MenuTitle>ABOUT US</S.MenuTitle>
-        </S.MenuItem>
-      </Link>
     </S.NavBarWrapper>
   );
 }

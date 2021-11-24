@@ -5,7 +5,7 @@ export const Container = styled.div `
   margin-left: 171px;
 `;
 
-export const HomeWrapper = styled.div`
+export const HomeWrapper = styled.div `
   width: 100%;
   height: 100vh;
   margin: 0 auto;
@@ -17,7 +17,7 @@ export const HomeWrapper = styled.div`
   background-position: center;
 `;
 
-export const HomeContent = styled.div`
+export const HomeContent = styled.div `
   height: 35%;
   width: 100%;
   margin: auto 0;
@@ -28,7 +28,8 @@ export const HomeContent = styled.div`
   color: white;
 `;
 
-export const BetaButton = styled.button`
+export const BetaButton = styled.button `
+cursor:pointer;
   background: #008dd4;
   color: white;
   border: none;
@@ -40,13 +41,13 @@ export const BetaButton = styled.button`
   justify-content: center;
 `;
 
-export const TitleOne = styled.div`
+export const TitleOne = styled.div `
   font-size: 50px;
   font-weight: 900;
   color: black;
 `;
 
-export const TitleTwo = styled.div`
+export const TitleTwo = styled.div `
   font-size: 23px;
   line-height: 35px;
   font-weight: 500;
@@ -54,7 +55,7 @@ export const TitleTwo = styled.div`
   margin-bottom: 30px;
 `;
 
-export const Introduction = styled.div`
+export const Introduction = styled.div `
   width: 100%;
   height: 300px;
   background-color: #252631;
@@ -66,20 +67,20 @@ export const Introduction = styled.div`
   line-height: 35px;
 `;
 
-export const IntroOne = styled.p`
+export const IntroOne = styled.p `
   color: white;
   font-weight: 500;
   font-size: 27px;
   margin: 0;
 `;
 
-export const IntroTwo = styled.p`
+export const IntroTwo = styled.p `
   color: white;
   font-size: 27px;
   font-weight: 500;
 `;
 
-export const BodyOne = styled.div`
+export const BodyOne = styled.div `
   width: 100%;
   height: 500px;
   display: flex;
@@ -88,7 +89,7 @@ export const BodyOne = styled.div`
   justify-content: center;
 `;
 
-export const BodyText = styled.div`
+export const BodyText = styled.div `
   height: 100%;
   width: 50%;
   display: flex;
@@ -98,33 +99,33 @@ export const BodyText = styled.div`
   margin-right: 5%;
 `;
 
-export const TextTitle = styled.div`
+export const TextTitle = styled.div `
   color: #252631;
   font-size: 40px;
   font-weight: 700;
   margin-bottom: 10%;
 `;
 
-export const TextWord = styled.div`
+export const TextWord = styled.div `
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   justify-content: center;
 `;
 
-export const Word = styled.div`
+export const Word = styled.div `
   font-size: 17px;
   line-height: 25px;
 `;
 
-export const BodyImage = styled.img`
+export const BodyImage = styled.img `
   border-radius: 15px;
   margin-right: 5%;
   width: 50%;
   height: 80%;
 `;
 
-export const BodyTwo = styled.div`
+export const BodyTwo = styled.div `
   width: 100%;
   height: 500px;
   display: flex;
@@ -134,7 +135,7 @@ export const BodyTwo = styled.div`
   background-color: #d9d9dd;
 `;
 
-export const BodyText2 = styled.div`
+export const BodyText2 = styled.div `
   height: 100%;
   width: 50%;
   display: flex;
@@ -144,35 +145,35 @@ export const BodyText2 = styled.div`
   margin-left: 5%;
 `;
 
-export const BodyImage2 = styled.img`
+export const BodyImage2 = styled.img `
   border-radius: 15px;
   margin-left: 5%;
   width: 50%;
   height: 80%;
 `;
 
-export const TextTitle2 = styled.div`
+export const TextTitle2 = styled.div `
   color: #252631;
   font-size: 40px;
   font-weight: 700;
   margin-bottom: 7%;
 `;
 
-export const TextWord2 = styled.div`
+export const TextWord2 = styled.div `
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
 `;
 
-export const ApplyWrapper = styled.div`
+export const ApplyWrapper = styled.div `
   width: 100%;
   display: flex;
   align-items: center;
   flex-direction: column;
 `;
 
-export const ApplyTitle = styled.div`
+export const ApplyTitle = styled.div `
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -180,45 +181,46 @@ export const ApplyTitle = styled.div`
   color: #252631;
   margin: 80px 0;
 `;
-export const ApplySmallTitle = styled.div`
+export const ApplySmallTitle = styled.div `
   font-size: 30px;
   font-weight: 500;
   margin-bottom: 50px;
 `;
 
-export const ApplyBigTitle = styled.div`
+export const ApplyBigTitle = styled.div `
   font-size: 54px;
   font-weight: 900;
   margin-bottom: 60px;
 `;
 
-export const ApplyInformation = styled.div`
+export const ApplyInformation = styled.div `
   font-size: 20px;
   margin-bottom: 10px;
 `;
 
-export const ApplyForm = styled.div`
+export const ApplyForm = styled.div `
   width: 440px;
   margin-bottom: 80px;
 `;
 
-export const FormWrapper = styled.div`
+export const FormWrapper = styled.div `
   width: 100%;
 `;
 
-export const FormText = styled.div`
+export const FormText = styled.div `
   width: 100%;
   font-size: 16px;
   font-weight: 600;
 `;
 
-export const FormInput = styled.input`
+export const FormInput = styled.input `
   width: 100%;
   height: 40px;
   margin-bottom: 30px;
+  padding:5px;
 `;
 
-export const ApplyCheckbox = styled.div`
+export const ApplyCheckbox = styled.div `
   width: 100%;
   height: 30px;
   display: flex;
@@ -226,19 +228,20 @@ export const ApplyCheckbox = styled.div`
   align-items: center;
   justify-content: flex-start;
 `;
-export const CheckboxWrapper = styled.input`
+export const CheckboxWrapper = styled.input `
   height: 100%;
   width: auto;
   margin-right: 10px;
 `;
-export const CheckboxText2 = styled.div`
+export const CheckboxText2 = styled.div `
   text-decoration-line: underline;
 `;
-export const CheckboxText = styled.div`
+export const CheckboxText = styled.div `
   font-size: 16px;
 `;
 
-export const ApplyButton = styled.button`
+export const ApplyButton = styled.button `
+  cursor:pointer;
   height: 50px;
   width: 100%;
   margin-top: 10px;
@@ -252,7 +255,7 @@ export const ApplyButton = styled.button`
   font-size: 16px;
 `;
 
-export const BottomWrapper = styled.div`
+export const BottomWrapper = styled.div `
   width: 100%;
   height: 200px;
   background-color: #d9d9dd;
@@ -262,13 +265,12 @@ export const BottomWrapper = styled.div`
   justify-content: center;
 `;
 
-export const CompanyName = styled.div`
+export const CompanyName = styled.div `
   font-size: 30px;
   font-weight: 900;
   margin-bottom: 50px
 `;
 
-export const BottomMenu = styled.div`
+export const BottomMenu = styled.div `
   font-size: 16px;
 `;
-

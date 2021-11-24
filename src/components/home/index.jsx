@@ -1,5 +1,6 @@
 /* eslint-disable */
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Header from '../header';
 import * as S from './style';
 
@@ -10,7 +11,9 @@ function Home() {
         <S.HomeContent>
           <S.TitleOne>TO THE NEXT LEVEL</S.TitleOne>
           <S.TitleTwo>AI 기반 농업 데이터 분석 솔루션 Cropper</S.TitleTwo>
-          <S.BetaButton>데모 신청하기</S.BetaButton>
+          <Link to="dashboard">
+            <S.BetaButton>데모 신청하기</S.BetaButton>
+          </Link>
         </S.HomeContent>
       </S.HomeWrapper>
       <S.Introduction>
@@ -108,12 +111,16 @@ function Home() {
             <S.CheckboxText2>마케팅 활용 및 광고 수신</S.CheckboxText2>
             <S.CheckboxText>에 동의합니다.</S.CheckboxText>
           </S.ApplyCheckbox>
-          <S.ApplyButton>무료 데모 신청하기</S.ApplyButton>
+          <Link to="dashboard">
+            <S.ApplyButton>무료 데모 신청하기</S.ApplyButton>
+          </Link>
         </S.ApplyForm>
       </S.ApplyWrapper>
       <S.BottomWrapper>
         <S.CompanyName>Cropper</S.CompanyName>
-        <S.BottomMenu>이용약관 | 개인정보 처리방침 |  고객센터  |  ©Cropper</S.BottomMenu>
+        <S.BottomMenu>
+          이용약관 | 개인정보 처리방침 | 고객센터 | ©Cropper
+        </S.BottomMenu>
       </S.BottomWrapper>
     </S.Container>
   );
