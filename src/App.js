@@ -7,24 +7,42 @@ import DashBoardPage from './components/dashboard/index';
 import ResultPage from './components/result/index';
 import Analysis from './components/analysis';
 import NavBar from './components/navbar';
+import Community from './components/community';
 
 function App() {
-  return (
-    <div className="container">
-      <GlobalStyle />
-      <NavBar />
-      <Switch>
-        <Route path="/" exact component={HomePage} />
-        <Route path="/about" exact component={AboutPage} />
-        <Route path="/dashboard" exact component={DashBoardPage} />
-        <Route path="/result" exact component={ResultPage} />
-        <Route path="/analysis" exact component={Analysis} />
-      </Switch>
-    </div>
-  );
+    return ( <
+        div className = "container" >
+        <
+        GlobalStyle / >
+        <
+        NavBar / >
+        <
+        Switch >
+        <
+        Route path = "/"
+        exact component = { HomePage }
+        /> <
+        Route path = "/about"
+        exact component = { AboutPage }
+        /> <
+        Route path = "/dashboard"
+        exact component = { DashBoardPage }
+        /> <
+        Route path = "/result"
+        exact component = { ResultPage }
+        /> <
+        Route path = "/analysis"
+        exact component = { Analysis }
+        /> <
+        Route path = "/community"
+        exact component = { Community }
+        /> < /
+        Switch > <
+        /div>
+    );
 }
 
-const GlobalStyle = createGlobalStyle`
+const GlobalStyle = createGlobalStyle `
   * {
     padding: 0px;
     margin: 0px;
