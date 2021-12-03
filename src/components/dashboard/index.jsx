@@ -80,7 +80,6 @@ const acts = [
   { title: '성장률이 높은 걸 보니 기분이 좋다.', due: '2021. 11. 20' },
 ];
 const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042', '#2cd2f6'];
-const checked = false;
 const RADIAN = Math.PI / 180;
 const renderCustomizedLabel = ({
   cx,
