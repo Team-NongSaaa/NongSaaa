@@ -9,7 +9,7 @@ function NavBar() {
       <Link to="/">
         <S.MenuItem>
           <Icon name="flask" size="large" />
-          <S.MenuTitle>NongSaaa</S.MenuTitle>
+          <S.MenuTitle>Cropper</S.MenuTitle>
         </S.MenuItem>
       </Link>
       <S.Line />
