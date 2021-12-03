@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Icon, Tab, Loader } from 'semantic-ui-react';
+import { Icon, Loader } from 'semantic-ui-react';
 import * as S from './style';
 
 function Tab2() {
