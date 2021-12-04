@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import { Icon } from 'semantic-ui-react';
 import * as S from './style';
@@ -9,7 +9,7 @@ function NavBar() {
       <Link to="/">
         <S.MenuItem>
           <Icon name="flask" size="large" />
-          <S.MenuTitle>NongSaaa</S.MenuTitle>
+          <S.MenuTitle>Cropper</S.MenuTitle>
         </S.MenuItem>
       </Link>
       <S.Line />

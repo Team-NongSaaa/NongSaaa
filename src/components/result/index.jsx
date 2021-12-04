@@ -1,5 +1,4 @@
 import React from 'react';
-import { Icon } from 'semantic-ui-react';
 import Slider from 'react-slick';
 import Header from '../header';
 import * as S from './style';
@@ -17,7 +16,7 @@ function Result() {
     <S.Container>
       <Header />
       <S.ContentWrapper>
-        <S.Title>2021년 11월 20일 드론 촬영 기록</S.Title>
+        <S.Title>2021년 11월 20일 촬영 기록</S.Title>
         <S.Weather>6 ~ 15℃, 맑음</S.Weather>
         <Slider {...settings}>
           {Array.from({ length: 16 }, (v, i) => i).map((image, index) => (

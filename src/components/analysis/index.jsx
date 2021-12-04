@@ -1,5 +1,5 @@
 import React from 'react';
-import { Icon, Tab } from 'semantic-ui-react';
+import { Tab } from 'semantic-ui-react';
 import Header from '../header';
 import Tab1 from './tab1';
 import Tab2 from './tab2';

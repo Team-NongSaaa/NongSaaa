@@ -36,9 +36,9 @@ function App() {
         /> <
         Route path = "/community"
         exact component = { Community }
-        /> < /
-        Switch > <
-        /div>
+        />
+        </Switch>
+        </div>
     );
 }
 
