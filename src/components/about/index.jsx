@@ -84,8 +84,8 @@ function About() {
           <S.MemberIntro>▪ 2020 고려대학교 인공지능 프로젝트 우수상</S.MemberIntro>
           <S.MemberIntro>▪ 2021 멋쟁이사자처럼 고려대학교 해커톤 3등</S.MemberIntro>
           <S.IntroBreak></S.IntroBreak>
-          <S.IntroText>"컴퓨터 지식에 대한 이해와 함께</S.IntroText>
-          <S.IntroText>인문학적 소양을 갖춘 개발자가 되고 싶은 사람입니다."</S.IntroText>
+          <S.IntroText>"컴퓨터 지식에 대한 이해와 함께 인문학적 소양을</S.IntroText>
+          <S.IntroText>갖춘 개발자가 되고 싶은 사람입니다."</S.IntroText>
         </S.TeamMember>
         <S.TeamMember>
           <S.MemberProfile>
