@@ -8,7 +8,7 @@ function Community() {
       <Header />
       <S.CImg src={'./img/community.png'} />
       <S.ImgText>
-        <p>Comming Soon</p>
+        <p>Coming Soon</p>
       </S.ImgText>
     </S.Container>
   );
